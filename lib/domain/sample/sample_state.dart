@@ -5,6 +5,8 @@ import '../../infrastructure/model/sample/sample_model.dart';
 
 part 'sample_state.freezed.dart';
 
+///アプリの状態管理をする対象
+///@:アノテーション、自動生成の対象
 @freezed
 class SampleState with _$SampleState {
   const factory SampleState({

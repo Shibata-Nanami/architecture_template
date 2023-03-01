@@ -1,5 +1,6 @@
 import '../../model/sample/sample_model.dart';
 
+///データを直接取りに行く階層
 class SampleDataSource {
   /// 3秒遅延させて、ダミーのデータを返す
   Future<List<SampleModel>> fetchSampleModelList() async {

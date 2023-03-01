@@ -7,25 +7,36 @@ environment:
   sdk: ">=2.18.2 <3.0.0"
 
 dependencies:
+  #自動生成のコマンド
   build_runner: ^2.2.1
+  #配列の処理が便利になる
   collection: ^1.17.0
   cupertino_icons: ^1.0.2
+  #API系の自動生成
   dio: ^5.0.0
   flutter:
     sdk: flutter
+  #スプラッシュ画面(待機画面)
   flutter_native_splash: ^2.2.10+1
   freezed: ^2.1.1
   freezed_annotation: ^2.1.0
+  #画面遷移、 URLの定義を管理
   go_router: ^6.0.6
+  #状態管理
   hooks_riverpod: ^2.0.2
   image_cropper: ^3.0.1
+  #画像選択
   image_picker: ^0.8.6
   intl: ^0.18.0
   json_annotation: ^4.7.0
+  #log出力
   logger: ^1.1.0
+  #テストコード書く用
   mockito: ^5.3.2
   riverpod_lint: ^1.0.1
+  #端末にデータを保持する
   shared_preferences: ^2.0.15
+  #外部ブラウザ立ち上げ
   url_launcher: ^6.1.6
 
 dev_dependencies:

@@ -3,6 +3,8 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'sample_service.dart';
 import 'sample_state.dart';
 
+///UIとロジックの橋渡し
+///UIに対する処理
 final sampleNotifierProvider =
     StateNotifierProvider.autoDispose<SampleNotifier, SampleState>((ref) {
   return SampleNotifier(

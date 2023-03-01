@@ -3,6 +3,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../../data_source/sample/sample_remote_data_source.dart';
 import '../../model/sample/sample_model.dart';
 
+///データソースから受け取ったものをサービスに渡す
 final sampleRepository =
     Provider((ref) => SampleRepository(sampleDataSource: SampleDataSource()));
 
