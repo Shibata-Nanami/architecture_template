@@ -1,5 +1,7 @@
 // ボトムナビゲーションを非表示にしたいルートパスを指定
 import 'package:flutter/material.dart';
+
+///画面遷移についてのパッケージ
 import 'package:go_router/go_router.dart';
 import '../../presentation/error/error_page.dart';
 
